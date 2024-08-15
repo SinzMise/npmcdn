@@ -3,38 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>中弦局JSD镜像站</title>
+    <title>中弦局Inpkg镜像站</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="https://jsd.nmmsl.top/gh/rong6/jsd@main/css/normalize.css">
+    <link rel="stylesheet" href="https://jsd.cdn.storisinz.site/gh/rong6/jsd@main/css/normalize.css">
     <link href='https://fonts.font.im/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://jsd.nmmsl.top/gh/rong6/jsd@main/css/cayman.css">
+    <link rel="stylesheet" href="https://jsd.cdn.storisinz.site/gh/rong6/jsd@main/css/cayman.css">
 </head>
 
 <body>
     <section class="page-header">
-        <h1 class="project-name">中弦局JSD镜像站</h1>
-        <h2 class="project-tagline">对中国大陆地区较为友好的jsDelivr镜像站。</h2>
+        <h1 class="project-name">中弦局Unpkg镜像站</h1>
+        <h2 class="project-tagline">对中国大陆地区较为友好的Unpkg镜像站。</h2>
         <a href="https://jsd.nmmsl.top" class="btn">立即使用</a>
     </section>
 
     <section class="main-content">
 
-        <p>本站是基于这个<a href="https://github.com/rong6/jsd">自建部署</a>，配合yt-blog.top的Vercel CDN，能获得极快的速度</p>
+        <p>本站是基于这个<a href="https://github.com/rong6/jsd">魔改</a>，使其能代理Unpkg，配合yt-blog.top的Vercel CDN，能获得极快的速度</p>
 
         <h1>
             <a id="user-content-how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span
                     class="octicon octicon-link"></span></a>如何使用？
         </h1>
 
-        <p>首先你需要先知道jsDelivr的语法，详见<a href="https://www.jsdelivr.com">jsDelivr官网</a>。</p>
-        <p>然后，你就会得到一个原始的jsDelivr加速链接，例如：</p>
+        <p>首先你需要先知道Unpkg的语法，详见<a href="https://unpkg.com">Unpkg官网</a>。</p>
+        <p>然后，你就会得到一个原始的Unpkg加速链接，例如：</p>
 
-        <pre><code>https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js</code></pre>
+        <pre><code>https://unpkg.com/jquery@3.6.4/dist/jquery.min.js</code></pre>
 
-        <p>将“cdn.jsdelivr.net”替换为“jsd.cdn.storisinz.site”，就会得到例如：</p>
+        <p>将“unpkg.com”替换为“npm.cdn.storisinz.site”，就会得到例如：</p>
 
-        <pre><code>https://jsd.cdn.storisinz.site/npm/jquery@3.6.4/dist/jquery.min.js</code></pre>
+        <pre><code>https://npm.cdn.storisinz.site/jquery@3.6.4/dist/jquery.min.js</code></pre>
 
         <p>结束。</p>
 
@@ -56,7 +56,7 @@
                     class="octicon octicon-link"></span></a>自部署
         </h1>
         
-        <p>你可以自行部署，开源地址：<a href="https://github.com/rong6/jsd">GitHub</a>。每个月有<b>100G流量</b>，自用应该是没问题了。</p>
+        <p>你可以自行部署，开源地址：<a href="https://github.com/rong6/jsd">GitHub</a>。每个月有<b>100G流量</b>，自用应该是没问题了。（请注意需要把jsdelivr的链接换成unpkg的）</p>
         <p>或者，你也可以使用Nginx反向代理，地址：https://github.com/rong6/jsd/blob/main/nginx.conf，教程：<a href="/">暂无</a>。</p>
 
         <h1><a id="user-content-end" class="anchor" href="#end" aria-hidden="true"><span
